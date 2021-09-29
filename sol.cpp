@@ -10,11 +10,6 @@ int main() {
 	while (tt--) {
 		int n;
 		cin >> n;
-		// if 'n' is odd then, output NO
-		if (n & 1) {
-			cout << "NO" << '\n';
-			continue;
-		}
 		// view the image in this repository for better understanding
 		// create a sequence from 1 to 'n'
 		vector<int> complete(n);
